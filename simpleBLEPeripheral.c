@@ -1417,4 +1417,5 @@ static void ReadRecord(void)
   ProxReporter_SetParameter( TEMPERATURE_MIN_LEVEL, sizeof ( uint8 ), &Read_Avg_MaxMin_Temperature[1] );
   ProxReporter_SetParameter( TEMPERATURE_AVG_LEVEL, sizeof ( uint8 ), &Read_Avg_MaxMin_Temperature[2] );
   
+  
 }
